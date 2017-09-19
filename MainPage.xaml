@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Pract3"
+             x:Class="Pract3.MainPage">
+
+    <ScrollView >
+        <StackLayout >
+            <Label Text="Datos Personales"
+               Font="Bold">
+            </Label>
+            <Label Text="Nombre"
+                   HorizontalOptions="Center">
+            </Label>
+
+            <Entry x:Name="txtusername"
+           Placeholder="Ingresa tu nombre"
+           ></Entry>
+
+            <Label Text="Apellidos"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtape"
+           Placeholder="Ingresa tus apellidos"
+           ></Entry>
+
+            <Label Text="Direccion"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtdirec"
+           Placeholder="Ingrese su dirección"
+           ></Entry>
+
+            <Label Text="Telefono"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtphone"
+           Placeholder="Ingrese su número telefónico"
+           ></Entry>
+
+            <Label Text="Datos escolares"
+                  Font="Bold"/>
+
+            <Label Text="Carrera"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtcarrera"
+           Placeholder="Ingrese su carrera"
+           ></Entry>
+
+            <Label Text="Semestre"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtsemestre"
+           Placeholder="Ingrese su semestre actual"
+           ></Entry>
+
+            <Label Text="Matricula"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtmatricula"
+           Placeholder="Ingrese su matricula"
+           ></Entry>
+            <Label Text="Datos Sociales"
+                   Font="Bold"/>
+
+
+
+            <Label Text="Correo"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtcorreo"
+           Placeholder="Ingrese su correo electrónico"
+           ></Entry>
+
+            <Label Text="Github"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtgithub"
+           Placeholder="https://github.com/dancie2709"
+           ></Entry>
+
+
+
+            <Button x:Name="boton"
+            Text="Enviar datos"/>
+
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
